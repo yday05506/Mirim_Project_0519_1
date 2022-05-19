@@ -50,6 +50,20 @@
             android:background="#ff0000"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="180dp"
+                android:text="박서함"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/psh"
+                android:layout_marginBottom="180dp"/>
 
         </LinearLayout>
 
@@ -59,7 +73,20 @@
             android:layout_height="match_parent"
             android:background="#ffff00"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="180dp"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:text="박재찬"/>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pjc"
+                android:layout_marginBottom="180dp"/>
 
         </LinearLayout>
 
@@ -68,8 +95,23 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#0000ff"
+            android:padding="20dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_marginTop="180dp"
+                android:textColor="#ffffff"
+                android:text="공기팡푸딩"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pp"
+                android:layout_marginBottom="180dp"/>
 
         </LinearLayout>
 
